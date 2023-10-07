@@ -1,27 +1,26 @@
 # Autonomous_Driving_Using_YOLO
 
 class	AP in YOLOv4	AP in YOLOv3	TP&FP in YOLOv4	TP&FP in YOLOv3
-car	ap = 73.09%	ap = 69.30%	TP = 15977, FP = 5767	TP = 15037, FP = 6829
-truck	ap = 61.61%	ap = 51.89%	TP = 573, FP = 232	TP = 469, FP = 244
-pedestrian	ap = 42.53%	ap = 24.20%	TP = 2192, FP = 1392	TP = 1213, FP = 1242
-bicyclist	ap = 41.32%	ap = 15.66%	TP = 93, FP = 63	TP = 51, FP = 94
-light	ap = 51.58%	ap = 42.93%	TP = 2298, FP = 739	TP = 1793, FP = 706
-Conclusion: More significant improvement in low AP classes.
+**car	ap** = 73.09%	ap = 69.30%	TP = 15977, FP = 5767	TP = 15037, FP = 6829
+**truck	ap** = 61.61%	ap = 51.89%	TP = 573, FP = 232	TP = 469, FP = 244
+**pedestrian	ap** = 42.53%	ap = 24.20%	TP = 2192, FP = 1392	TP = 1213, FP = 1242
+**bicyclist	ap** = 41.32%	ap = 15.66%	TP = 93, FP = 63	TP = 51, FP = 94
+**light	ap** = 51.58%	ap = 42.93%	TP = 2298, FP = 739	TP = 1793, FP = 706
+**Conclusion**: More significant improvement in low AP classes.
 
 YOLOv4	YOLOv3
 mean average precision (mAP@0.50) = 54.02 %	mean average precision (mAP@0.50) = 40.80 %
-Classes
-截圖 2021-08-03 21 15 21
 
-car: with 101314 labels
-truck: with 6313 labels
-pedestrian: with 10637 labels
-bicyclist: with 1442 labels
-light: with 12700 labels
+
+**car:** with 101314 labels
+**truck:** with 6313 labels
+**pedestrian:** with 10637 labels
+**bicyclist:** with 1442 labels
+**light:** with 12700 labels
 Training Log
 YOLOv4	YOLOv3
 chart 2	chart
-Conclusion: The speed of convergence in YOLOv4 is much faster than that in YOLOv3
+**Conclusion:** The speed of convergence in YOLOv4 is much faster than that in YOLOv3
 
 Weights
 YOLOv4	YOLOv3
